@@ -10,8 +10,8 @@ This repository contains yaml files that can be used to implement access control
 1. Apply your yaml files to your gke cluster.
 
 ``` shell
-git clone https://github.com/google/xxx
-cd xxx
+git clone https://github.com/GoogleCloudPlatform/gke-rbac-best-practices
+cd gke-rbac-best-practices
 vi cicd-rolebinding.yaml or security-auditor-rolebinding.yaml
 kubectl apply -f your yaml file
 ```
